@@ -115,7 +115,7 @@
     }
     
     .navbar .logo a {
-    color: #fff;
+    color: #0b0101;
     font-size: 35px;
     font-weight: 600;
     }
@@ -136,7 +136,7 @@
     
     .navbar .menu li a {
     display: block;
-    color: #fff;
+    color: #0a0101;
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
@@ -192,10 +192,10 @@
    
     .home {
     display: flex;
-    background: url("https://source.unsplash.com/720x600/?dark,laptop") no-repeat
+    background: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fstock.adobe.com%2Fsearch%2Fimages%3Fk%3Dlaptop%2Bon%2Bblack%2Bbackground&psig=AOvVaw3GJnvXbWBD62nd69F0Ju7M&ust=1706796120566000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCOjAnZHlh4QDFQAAAAAdAAAAABAE") no-repeat
     center;
     height: 100vh;
-    color: #fff;
+    color: #050000;
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
@@ -312,21 +312,23 @@
     animation: pulsate 1s ease-in-out;
     }
     
-   
-    .services,
+
     .projects {
-    color: #fff;
-    background: #111;
+    color: #fefcfc;
+    background: radial-gradient(#e1efff, white);
     }
-    
+    .services{
+        color:#f6f5f5;
+        background: radial-gradient(#e1efff, white);
+    }
     .services .title::before,
     .projects .title::before {
-    background: #fff;
+    background: #340707;
     }
     
     .services .title::after,
     .projects .title::after {
-    background: #111;
+    background: radial-gradient(#e1efff, white);
     content: "What I Provide ?";
     }
     
